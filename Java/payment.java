@@ -1,6 +1,6 @@
 package Java;
 
- class payment {
+ class Payment {
     Integer id;
     
 }
