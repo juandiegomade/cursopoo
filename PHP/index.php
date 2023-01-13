@@ -5,7 +5,12 @@ require_once('UberX.php');
 require_once('account.php');
 
 $uberX = new UberX("CVB123", new Account("Andres Herrera", "AND456", "Chevrolet", "Spark"))
+$uberX->setPassenger(4);
 $uberX->PrintDataCar();
 
 $uberPool = new UberPool("TYU567", new Account("Andrea Ferran", "ANDA765", "Dodge", "Attitude")
 $uberPool->printDataCar();
+
+$uberVan = new $uberVan("OJL395", new Account("Raul Ramirez", "AND456"), "Nissan", "Versa");
+$uberVan->setPassenger(6);
+$uberVan->printDataCar();
